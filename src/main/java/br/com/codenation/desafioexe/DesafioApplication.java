@@ -16,4 +16,11 @@ public class DesafioApplication {
 		return lista;
 	}
 
+	public static Boolean isFibonacci(Integer a) {
+		List<Integer> contemFibonaci = fibonacci();
+		//Metodo contains aprendido no QAstacks
+
+		return contemFibonaci.contains(a);
+	}
+
 }
